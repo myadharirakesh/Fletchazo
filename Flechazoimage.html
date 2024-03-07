@@ -1,0 +1,304 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<title>Dropdowns</title>
+<style>
+.mydiv{
+position:sticky;
+top:0px;
+background-color:yellow;
+}
+nav{
+padding:15px;
+margin-left:400px;
+}
+.nav-link{
+display:inline;
+padding:15px;
+color:black;
+}
+.img{
+margin-left:240px;
+}
+.nav-bar{
+margin-top:-55px;
+}
+.mya1{
+text-decoration:none;
+color:black;
+}
+.mya1:hover{
+color:Blue;
+font-weight:900;
+}
+.mya1:link{
+color:orange;
+font-weight:900;
+}
+.img1{
+margin-left:1250px;
+margin-top:-70px;
+}
+.mya2{
+color:black;
+}
+
+
+.dropdown-content{
+display:none;
+background-color:cyan;
+padding:20px;
+width:140px;
+position:absolute;
+z-index:10;
+left:580px;
+}
+.dropdown:hover .dropdown-content{
+display:block;
+}
+.nav-link1{
+margin-top:15px;
+list-style-type:none;
+}
+
+
+.dropdown-content1{
+display:none;
+background-color:cyan;
+width:150px;
+padding:15px;
+margin-top:-40px;
+}
+.dropdown1:hover .dropdown-content1{
+display:block;
+position:absolute;
+z-index:10;
+left:180px;
+}
+.nav-link2{
+list-style-type:none;
+}
+
+
+
+.dropdown-content2{
+display:none;
+background-color:cyan;
+width:150px;
+padding:15px;
+margin-top:-40px;
+}
+.dropdown2:hover .dropdown-content2{
+display:block;
+position:absolute;
+z-index:10;
+left:180px;
+}
+.nav-link3{
+list-style-type:none;
+}
+
+
+.dropdown-content3{
+display:none;
+background-color:cyan;
+width:150px;
+padding:10px;
+margin-top:-40px;
+}
+.dropdown3:hover .dropdown-content3{
+display:block;
+position:absolute;
+z-index:10;
+left:180px;
+}
+.nav-link4{
+list-style-type:none;
+padding:5px;
+}
+.mya3{
+color:black;
+font-weight:700;
+}
+.dropdown-content4{
+display:none;
+background-color:cyan;
+width:150px;
+padding:15px;
+margin-top:-30px;
+}
+.dropdown4:hover .dropdown-content4{
+display:block;
+position:absolute;
+z-index:10;
+left:180px;
+}
+.nav-link5{
+list-style-type:none;
+}
+
+.mydiv11{
+width:1500px;
+height:700px;
+background-image:url('Flechazoimage1.jpg');
+animation-name:rakhibhai;
+animation-duration:10s;
+}
+@keyframes rakhibhai{
+0%{background-image:url('Flechazoimage1.jpg');}
+50%{background-image:url('Flechazoimage2.jpg');}
+100%{background-image:url('Flechazoimage3.jpg');}
+}
+
+.mydiv1{
+margin-left:300px;
+margin-top:40px;
+}
+.img2{
+height:300px;
+}
+.mytd{
+color:grey;
+font-size:20px;
+}
+.mydiv4{
+background-color:black;
+}
+.nav-link6{
+display:inline;
+padding:15px;
+}
+a{
+text-decoration:none;
+color:white;
+}
+.ol{
+line-height:35px;
+}
+
+
+body{
+overflow-x:hidden;
+}
+
+</style>
+</head>
+<body>
+	<div class="mydiv">
+	<a href="Flechazoimage.html"><img src="logo.png"  width="200" height="60" class="img"></a>
+	<nav>
+	<ul class="nav-bar">
+	<li class="nav-link"><a href="About.html" class="mya1">ABOUT US</a></li>
+	<li class="nav-link dropdown"><a href=" " class="mya1">OUR RESTAUARANTS <i class="fa fa-caret-down"></i></a>
+		<ul class="dropdown-content">
+		<li class="nav-link1 dropdown1"><a href="" class="mya2">Benguluru <i class="fa-solid fa-caret-right"></i></a>
+			<ul class="dropdown-content1">
+			<li class="nav-link2"><a href="" style="color:black;font-weight:700;">Whitefield</a></li>
+			</ul>
+		</li><hr>
+		<li class="nav-link1 dropdown2"><a href="" class="mya2">Chennai <i class="fa-solid fa-caret-right"></i></a>
+			<ul class="dropdown-content2">
+			<li class="nav-link3"><a href="" style="color:black;font-weight:700;">T Nagar</a></li>
+			</ul>
+		</li><hr>
+		<li class="nav-link1 dropdown3"><a href="" class="mya2">Hyderabad <i class="fa-solid fa-caret-right"></i></a>
+			<ul class="dropdown-content3">
+			<li class="nav-link4"><a href="" class="mya3">Gacchibowli</a></li><hr>
+			<li class="nav-link4"><a href="" class="mya3">Madhapur</a></li><hr>
+			<li class="nav-link4"><a href="" class="mya3">Banjara Hills</a></li><hr>
+			<li class="nav-link4"><a href="" class="mya3">Kukatpally</a></li><hr>
+			<li class="nav-link4"><a href="" class="mya3">Kothapet</a></li><hr>
+			<li class="nav-link4"><a href="" class="mya3">Sainikpuri</a></li><hr>
+			<li class="nav-link4"><a href="" class="mya3">Raidurgh</a></li><hr>
+			<li class="nav-link4"><a href="" class="mya3">Kompally</a></li><hr>
+			<li class="nav-link4"><a href="" class="mya3">Miyapur</a></li>
+			</ul>
+		</li><hr>
+		<li class="nav-link1 dropdown4"><a href="" class="mya2">Andra pradesh <i class="fa-solid fa-caret-right"></i></a>
+			<ul class="dropdown-content4">
+			<li class="nav-link5"><a href="" style="color:black;font-weight:700;">Guntur</a></li>
+			</ul>
+		</li>
+		</ul>
+
+	</li>
+	<li class="nav-link"><a href="Speciality.html" class="mya1">SPECIALITY</a></li>
+	<li class="nav-link"><a href="Franchise.html" class="mya1">FRANCHISE</a></li>
+	<li class="nav-link"><a href="Contact.html" class="mya1">CONTACT</a></li>
+	<ul>
+	</nav>
+	<img src="wif1.png" class="img1">
+	</div>
+
+	<div class="mydiv11">
+	</div>
+	<img src="Reserve.png" style="margin-left:400px; margin-top:100px;">
+	<img src="GB5.png" style="margin-left:300px; margin-top:100px;">
+	<img src="Flechazoimage6.png" style="width:1500px;">
+
+
+	<div class="mydiv1">
+	<table>
+	<tr><td><img src="a.png"></td>
+	<td><img src="b.png" class="img2"></td>
+	<td><img src="c.png" class="img2"></td>
+	</tr>
+	<tr>
+	<td class="mytd">Silken Tofu & Tri Bell Peppers in Kung Pao Sauce</td>
+	<td class="mytd">BBQ Sweet Chilli Wings</td>
+	<td class="mytd">Sesame & Parsley Falafel</td>
+	</tr><br>
+
+	<tr><td><img src="d.png" class="img2"></td>
+	<td><img src="e.png" class="img2"></td>
+	<td><img src="f.png" class="img2"></td>
+	</tr>
+	<tr>
+	<td class="mytd">Island Style Crab Curry</td>
+	<td class="mytd">Italian Corn Bursts in Pani Poori Cups</td>
+	<td class="mytd">Sushi</td>
+	</tr>
+
+	<tr>
+	<td><img src="g.png" class="img2"></td>
+	</tr>
+	<tr>
+	<td class="mytd">Roasted Chicken</td>
+	</tr>
+	</table>
+	</div>
+
+	
+	<img src="Flechazoimage5.jpg" style="width:1500px;">
+
+	<img src="rst3.png" width="1500" style="margin-top:120px;">
+
+
+
+
+	<div class="mydiv4">
+	<nav class="nav1">
+	<ul class="ol">
+	<li class="nav-link6"><a href="Gacchibowli.html">Hyderabad Gacchibowli</a></li>
+	<li class="nav-link6"><a href="Madhapur.html">Hyderabad Madhapur</a></li>
+	<li class="nav-link6"><a href="BanjaraHills.html">Hyderabad Banjara Hills</a></li><br>
+	<li class="nav-link6"><a href="Kukatpally.html">Hyderabad Kukatpally</a></li>
+	<li class="nav-link6"><a href="Kothapet.html">Hyderabad Kothapet</a></li>
+	<li class="nav-link6"><a href="Sainikpuri.html">Hyderabad Sainikpuri</a></li><br>
+	<li class="nav-link6"><a href="Raidurgh.html">Hyderabad Raidurgh</a></li>
+	<li class="nav-link6"><a href="Kompally.html">Hyderabad Kompally</a></li>
+	<li class="nav-link6"><a href="Miyapur.html">Hyderabad Miyapur</a></li><br>
+	<liclass="nav-link6"><a href="Guntur.html">AP Guntur</a></li>
+	<li class="nav-link6"><a href="TNagar.html">Tamilnadu Chennai</a></li>
+	<li class="nav-link6"><a href="Whitefield.html">Benguluru whitefield</a></li>
+	</ul>
+	</nav>
+	<img src="ftz1.png" style="width:100px; height:50px; margin-left:220px; margin-top:-400px;">
+	<img src="wif.png" style="width:150px; margin-left:800px; margin-top:-200px;">
+	</div>
+	
+	
+
+
+</body>
+</html>
